@@ -1,0 +1,7 @@
+Diff is a informative command.
+
+Stash is a temporary location for the items.
+
+You are working on something and you just want to go another branch for quick read.
+
+Added a message to the file.

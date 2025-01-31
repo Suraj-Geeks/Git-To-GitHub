@@ -1,0 +1,14 @@
+Access repo Locally(In your machine)where you want to store another repo?
+
+
+✅ Step 1: Clone repo-A from GitHub
+First, clone repo-A to your local system: git clone https://github.com/YOUR-USERNAME/repo-A.git
+
+✅ Step 2: Navigate into repo-A :cd repo-A (Now, you're inside repo-A on your local machine.)
+
+*Add Repo B as a Submodule:
+
+git submodule add https://github.com/YOUR-USERNAME/repo-B.git repo-B
+git commit -m "Added Repo B as a submodule"
+git push origin master/main(that depends in which branch, your github repo is in)
+
