@@ -1,0 +1,16 @@
+What do you mean by -u?
+
+The -u flag in the git push command stands for "upstream". It tells Git to set the upstream reference for your local branch to the remote branch you are pushing to.
+
+What Does git push -u origin master Do?
+-u or --set-upstream: This option tells Git to associate your local branch (master in this case) with the remote branch (origin/master).
+After using -u, you can simply run git push or git pull in the future, and Git will know which remote branch to push/pull from, without needing to specify origin master each time.
+
+*How It Works:
+First Push:
+The first time you push a local branch to a remote (e.g., git push -u origin master), Git sets the upstream for that branch.
+
+This means Git remembers the remote branch (origin/master), so you don’t have to type the remote and branch name each time.
+
+Subsequent Pushes:
+After setting the upstream, you can just use:git push (Git will know which branch you’re pushing to (i.e., origin/master or main))
