@@ -1,0 +1,14 @@
+Steps to Push MyProject from its Parent Directory:
+
+You can directly push (MyProject) from its parent folder (Tailwind CSS Projects)
+
+1. Navigate to the Parent Directory
+First, go to the parent directory where MyProject is located. In your case, this would be:cd "D:\Academy Study Material\Full Stack 2024\Front End 2024\Tailwind CSS Projects"
+
+2. Initialize Git Repository in the Parent Directory (if not already initialized): git init
+
+3. Add the MyProject Folder to Git: git add MyProject/
+4. Commit the Changes
+5. Create a GitHub Repository(Just do not add README FILE)
+6. Add Remote Repository(git remote add origin https://github.com/your-username/MyProject.git)
+7. Push the MyProject Folder to GitHub
